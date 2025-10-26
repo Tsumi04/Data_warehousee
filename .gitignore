@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Data files (keep structure but not actual data)
+data/raw/*.csv
+data/clean/
+data/processed/
+
+# ETL Reports and Logs
+data_profile_ETL_*.json
+data_quality_report_ETL_*.json
+filtering_stats_ETL_*.json
+load_summary_ETL_*.json
+etl.log
+etl_detailed.log
+production_system.log
+continue_system.log
+startup.log
+
+# ML Models
+ml_models/
+*.pkl
+*.joblib
+
+# System Reports
+system_report.json
+
+# Temporary files
+*.tmp
+*.temp
